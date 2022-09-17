@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: wheat;
+}
+.arrow{
+    font-size: 5rem;
+}
+.arrow:hover{
+    color:yellow;    
+}
+
+.image{
+    width: 100%;
+}
