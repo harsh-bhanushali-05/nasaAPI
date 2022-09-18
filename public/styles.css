@@ -1,11 +1,20 @@
 body{
-    background-color: black;
-    color: wheat;
+    background-color: rgb(58, 64, 85);
+    color: white;
+}
+p{
+    font-size: 1.5rem;
 }
 .arrow{
     font-size: 5rem;
 }
-.arrow:hover{
+.hello{
+    background-color: rgb(58, 64, 85);
+    border: none;
+    color: white;
+}
+
+.hello:hover{
     color:yellow;    
 }
 

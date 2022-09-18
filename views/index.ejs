@@ -25,10 +25,15 @@
             
         </div>
         <div class="col-5">
-            <img class="image" src=<%=img%> alt="suppose to be an image">
+            <img class="image" alt="if you cant see the text/image please refresh the page as it is a server issue" src=<%=img%>>
         </div>
-        <div class="col-5 "><h1><%=description%></h1></div>
-        <div class="col-1 arrow"><a>></a></div>
+        <div class="col-5 "><p><%=description%></p></div>
+       
+        <div class="col-1 arrow"> 
+            <form action="/next" method="post">
+                <button type="submit" class="hello">></button>
+            </form>
+    </div>
     </div>
     <!-- <script src="/views/data.js" charset="utf-8"></script> -->
 </body>
