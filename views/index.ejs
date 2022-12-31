@@ -7,7 +7,7 @@
     <!-- CSS only -->
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <title>Document</title>
+    <title>APOD</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -15,6 +15,7 @@
         <h1>Astronomy Picture Of The Day</h1>
         <h5>Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation.</h5>
         <h2 class="title"><%=title%></h2>
+        <p><%=date%></p>
     </center>
   
     <div class="row">
@@ -25,7 +26,7 @@
             
         </div>
         <div class="col-5">
-            <img class="image" alt="if you cant see the text/image please refresh the page as it is a server issue" src=<%=img%>>
+            <img class="image" alt="./valid.png" src=<%=img%>>
         </div>
         <div class="col-5 "><p><%=description%></p></div>
        
